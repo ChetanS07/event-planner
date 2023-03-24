@@ -1,0 +1,16 @@
+.contactdetails {
+    text-align: center;
+    padding: 2rem 5rem;
+    background-color: #FFFBF5;
+}
+
+.contactdesc {
+    padding: 2rem 15rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    margin-bottom: 5rem;
+}
+
+.contactinfo h2 {
+    margin-top: 5rem;
+}

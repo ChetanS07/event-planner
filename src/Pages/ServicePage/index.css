@@ -1,0 +1,43 @@
+.servicesbanner {
+    height: 30rem;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: right;
+}
+
+.servicesbanner div {
+    /* float: left; */
+    /* border: 1px solid saddlebrown; */
+    font-size: 2rem;
+    background-color: #00337C;
+    color: #FFFBF5;
+    margin-top: 10rem;
+    padding: 0 10rem;
+    text-align: center;
+    height: fit-content;
+}
+
+.servicescontent {
+    padding: 2rem 5rem;
+    background-color: rgb(221, 221, 221, 0.3);
+}
+
+.servicescontent h2 {
+    font-size: 1.8rem;
+}
+
+.servicescontent div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5rem;
+    gap: 4rem;
+}
+
+.servicescontent div article {
+    /* border: 1px solid; */
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    background-color: aliceblue;
+    line-height: 1.5rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
