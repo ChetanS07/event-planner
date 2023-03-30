@@ -4,6 +4,9 @@ import Footer from "../../Components/Footer"
 import CompanyCard from "../../Components/CompanyCard"
 
 import CompanyPage from "../../Components/companyPage"
+import img from "../../Assets/image1.jpeg"
+// import img2 from "../../Assets/image2.jpeg"
+// import img3 from "../../Assets/image3.jpeg"
 
 import { useState } from 'react';
 
@@ -17,7 +20,7 @@ function App() {
         {
             id: 2,
             name: "Company 2",
-            image: "image2",
+            image: img,
             about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id leo in vitae turpis massa sed elementum. Odio euismod lacinia at quis. Urna nunc id cursus metus aliquam. Interdum consectetur libero id faucibus nisl tincidunt eget nullam non. Malesuada fames ac turpis egestas sed tempus urna. Lacus vel facilisis volutpat est velit egestas dui id ornare. Ac felis donec et odio pellentesque diam volutpat commodo sed. Donec adipiscing tristique risus nec feugiat in. Sit amet est placerat in egestas erat imperdiet sed euismod. Et netus et malesuada fames ac turpis egestas. Commodo quis imperdiet massa tincidunt nunc. Massa tempor nec feugiat nisl pretium fusce id.Pharetra diam sit amet nisl suscipit adipiscing.Purus gravida quis blandit turpis cursus in hac habitasse.Egestas quis ipsum suspendisse ultrices gravida dictum.Ridiculus mus mauris vitae ultricies leo integer.Volutpat blandit aliquam etiam erat velit scelerisque in.Fringilla phasellus faucibus scelerisque eleifend donec pretium.Ornare arcu dui vivamus arcu felis bibendum ut tristique et.Quis varius quam quisque id diam vel.Tellus pellentesque eu tincidunt tortor.Erat velit scelerisque in dictum non consectetur a erat.Eleifend mi in nulla posuere sollicitudin.Amet justo donec enim diam.",
             phone: "1234524434",
             email: "fasfasfasdf@gamialf.coam"
@@ -28,7 +31,7 @@ function App() {
         {
             id: 1,
             name: "Company 1",
-            image: "image1",
+            image: img, //replace this with img2 or image name that is imported
             about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id leo in vitae turpis massa sed elementum. Odio euismod lacinia at quis. Urna nunc id cursus metus aliquam. Interdum consectetur libero id faucibus nisl tincidunt eget nullam non. Malesuada fames ac turpis egestas sed tempus urna. Lacus vel facilisis volutpat est velit egestas dui id ornare. Ac felis donec et odio pellentesque diam volutpat commodo sed. Donec adipiscing tristique risus nec feugiat in. Sit amet est placerat in egestas erat imperdiet sed euismod. Et netus et malesuada fames ac turpis egestas. Commodo quis imperdiet massa tincidunt nunc. Massa tempor nec feugiat nisl pretium fusce id.Pharetra diam sit amet nisl suscipit adipiscing.Purus gravida quis blandit turpis cursus in hac habitasse.Egestas quis ipsum suspendisse ultrices gravida dictum.Ridiculus mus mauris vitae ultricies leo integer.Volutpat blandit aliquam etiam erat velit scelerisque in.Fringilla phasellus faucibus scelerisque eleifend donec pretium.Ornare arcu dui vivamus arcu felis bibendum ut tristique et.Quis varius quam quisque id diam vel.Tellus pellentesque eu tincidunt tortor.Erat velit scelerisque in dictum non consectetur a erat.Eleifend mi in nulla posuere sollicitudin.Amet justo donec enim diam.",
             phone: "1234524434",
             email: "fasfasfasdf@gamialf.coam"
@@ -37,7 +40,7 @@ function App() {
         {
             id: 3,
             name: "Company 3",
-            image: "image3",
+            image: img,
             about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id leo in vitae turpis massa sed elementum. Odio euismod lacinia at quis. Urna nunc id cursus metus aliquam. Interdum consectetur libero id faucibus nisl tincidunt eget nullam non. Malesuada fames ac turpis egestas sed tempus urna. Lacus vel facilisis volutpat est velit egestas dui id ornare. Ac felis donec et odio pellentesque diam volutpat commodo sed. Donec adipiscing tristique risus nec feugiat in. Sit amet est placerat in egestas erat imperdiet sed euismod. Et netus et malesuada fames ac turpis egestas. Commodo quis imperdiet massa tincidunt nunc. Massa tempor nec feugiat nisl pretium fusce id.Pharetra diam sit amet nisl suscipit adipiscing.Purus gravida quis blandit turpis cursus in hac habitasse.Egestas quis ipsum suspendisse ultrices gravida dictum.Ridiculus mus mauris vitae ultricies leo integer.Volutpat blandit aliquam etiam erat velit scelerisque in.Fringilla phasellus faucibus scelerisque eleifend donec pretium.Ornare arcu dui vivamus arcu felis bibendum ut tristique et.Quis varius quam quisque id diam vel.Tellus pellentesque eu tincidunt tortor.Erat velit scelerisque in dictum non consectetur a erat.Eleifend mi in nulla posuere sollicitudin.Amet justo donec enim diam.",
             phone: "1234524434",
             email: "fasfasfasdf@gamialf.coam"
@@ -48,7 +51,7 @@ function App() {
         {
             id: 4,
             name: "Company 4",
-            image: "image4",
+            image: img,
             about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id leo in vitae turpis massa sed elementum. Odio euismod lacinia at quis. Urna nunc id cursus metus aliquam. Interdum consectetur libero id faucibus nisl tincidunt eget nullam non. Malesuada fames ac turpis egestas sed tempus urna. Lacus vel facilisis volutpat est velit egestas dui id ornare. Ac felis donec et odio pellentesque diam volutpat commodo sed. Donec adipiscing tristique risus nec feugiat in. Sit amet est placerat in egestas erat imperdiet sed euismod. Et netus et malesuada fames ac turpis egestas. Commodo quis imperdiet massa tincidunt nunc. Massa tempor nec feugiat nisl pretium fusce id.Pharetra diam sit amet nisl suscipit adipiscing.Purus gravida quis blandit turpis cursus in hac habitasse.Egestas quis ipsum suspendisse ultrices gravida dictum.Ridiculus mus mauris vitae ultricies leo integer.Volutpat blandit aliquam etiam erat velit scelerisque in.Fringilla phasellus faucibus scelerisque eleifend donec pretium.Ornare arcu dui vivamus arcu felis bibendum ut tristique et.Quis varius quam quisque id diam vel.Tellus pellentesque eu tincidunt tortor.Erat velit scelerisque in dictum non consectetur a erat.Eleifend mi in nulla posuere sollicitudin.Amet justo donec enim diam.",
             phone: "1234524434",
             email: "fasfasfasdf@gamialf.coam"

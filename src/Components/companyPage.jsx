@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Styles/styles.css"
 
-import companyImg from "../Assets/company1.jpeg"
+// import companyImg from "../Assets/company1.jpeg"
 
 function App(props) {
     return (
@@ -10,7 +10,7 @@ function App(props) {
 
                 <div className='inwrapper'>
                     <div className='pimagewrapper'>
-                        <img src={companyImg}></img>
+                        <img src={props.image}></img>
                     </div>
                     <h2 className='pnamewrapper'>
                         {props.name}
